@@ -51,5 +51,11 @@
                 echo "Posición inválida para F4. Debe estar entre 1 y 30.";
             }
         }
+
+        #[Override]
+        function subirCategoria()
+        {
+            return(new F3());
+        }
     }
 ?>

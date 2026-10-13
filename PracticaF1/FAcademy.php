@@ -52,5 +52,11 @@
                 echo "Posición inválida para FAcademy. Debe estar entre 1 y 18.";
             }
         }
+
+        #[Override]
+        function subirCategoria()
+        {
+            return(new F4());
+        }
     }
 ?>

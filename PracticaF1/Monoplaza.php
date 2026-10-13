@@ -9,6 +9,8 @@
         abstract function otorgarPuntos($posicion, $vueltaRapida);
         
         abstract function posicionValida($posicion);
+
+        abstract function subirCategoria();
     }
 
 ?>

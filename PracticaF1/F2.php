@@ -52,5 +52,15 @@
                 echo "Posición inválida para F2. Debe estar entre 1 y 24.";
             }
         }
+
+        #[Override]
+        function subirCategoria()
+        {
+            if ($this->minimo_puntos) {
+                return(new F1());
+            } else {
+                echo "No se puede subir de categoría. Se requiere un mínimo de puntos.";
+            }
+        }
     }
 ?>

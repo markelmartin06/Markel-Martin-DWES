@@ -55,5 +55,11 @@
                 echo "Posición inválida para F1. Debe estar entre 1 y 22.";
             }
         }
+
+        #[Override]
+        function subirCategoria()
+        {
+            echo "No se puede subir de categoría desde F1.";
+        }
     }
 ?>
